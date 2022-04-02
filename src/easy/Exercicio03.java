@@ -3,13 +3,13 @@ package easy;
 import javax.swing.JOptionPane;
 
 public class Exercicio03 {
-    public static void main(String[] args) {
-        String numero1;
-        String numero2;
-        numero1 = JOptionPane.showInputDialog("Digite o numero");
-        numero2 = JOptionPane.showInputDialog("Digite outro numero");
-        System.out.println("O valor do primeiro numero:"+numero2);
-        System.out.println("O valor do primeiro numero:"+numero1);
+   public String exibeValoresTrocados(int numero1, int numero2) {
+        return "O valor do primeiro numero" + numero2 +"\n"
+        +"O valor do segundo numero é :" + numero1;
 
+        //numero1 = JOptionPane.showInputDialog("Digite o numero");
+        //numero2 = JOptionPane.showInputDialog("Digite outro numero");
+
+        
     }
 }
